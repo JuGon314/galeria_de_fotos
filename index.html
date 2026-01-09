@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Galeria de Fotos</title>
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <h1>Galeria de Fotos</h1>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="container">
+
+    <!-- Barra de busca -->
+    <section class="search">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Buscar foto pelo nome..."
+          aria-label="Buscar fotos"
+        />
+        <span class="search-icon">🔍</span>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="gallery" id="gallery">
+      <!-- As fotos serão inseridas aqui via JavaScript -->
+    </section>
+
+    <!-- Mensagem de vazio -->
+    <section class="empty-state" id="emptyState" hidden>
+      <p>Nenhuma foto encontrada.</p>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>© 2026 Galeria de Fotos. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
