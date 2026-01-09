@@ -151,8 +151,4 @@ git clone https://www.github.com/JuGon314/galeria_de_fotos/
 cd galeria_de_fotos
 ```
 
-3. Abra o arquivo `index.html` no navegador:
-```bash
-open src/index.html
-```
-Ou simplesmente dê duplo clique no arquivo.
+3. Abra o arquivo `index.html` no navegador
