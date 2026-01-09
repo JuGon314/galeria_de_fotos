@@ -61,22 +61,25 @@ Este repositório também serve como **material de estudo e portfólio**, demons
 ## 🗂️ Estrutura do Projeto
 
 ```text
-photo-gallery/
+GALERIA_DE_FOTOS/
 │
 ├── src/
 │   ├── data/
-│   │   └── images.js        # Lista de imagens (links externos e metadados)
+│   │   └── photos.js        # Dados das fotos (nome e URL)
 │   │
 │   ├── services/
-│   │   └── gallery.js       # Lógica da galeria e busca
+│   │   └── gallery.js       # Lógica de busca e filtragem
+│   │
+│   ├── ui/
+│   │   ├── render.js        # Renderização da galeria no DOM
+│   │   └── main.js          # Inicialização e eventos da aplicação
 │   │
 │   ├── styles/
-│   │   └── style.css        # Estilos globais da aplicação
+│   │   └── styles.css       # Estilos e responsividade
 │   │
 │   └── index.html           # Estrutura principal da página
 │
-└── README.md
-
+└── README.md                # Documentação do projeto
 ```
 
 ---
