@@ -92,7 +92,7 @@ Cada imagem da galeria é representada por um objeto JavaScript contendo:
 ```js
 {
   name: "Nome da imagem",
-  src: "caminho/da/imagem.jpg"
+  src: "link da imagem"
 }
 ```
 Esses dados são utilizados para gerar dinamicamente os cards na interface.
