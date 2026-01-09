@@ -1,6 +1,6 @@
 # 📸 Photo Gallery — Galeria de Imagens Responsiva
 
-Este projeto foi desenvolvido como parte do **Segundo Desafio Prático** da disciplina, com o objetivo de aplicar conceitos fundamentais de **HTML, CSS e JavaScript puro**, focando em organização de código, responsividade e experiência do usuário.
+Este projeto foi desenvolvido como parte do **Segundo Desafio Prático**, com o objetivo de aplicar conceitos fundamentais de **HTML, CSS e JavaScript puro**, focando em organização de código, responsividade e experiência do usuário.
 
 A aplicação consiste em uma **galeria de imagens interativa**, com busca dinâmica, layout responsivo e interface moderna em tema escuro.
 
