@@ -117,7 +117,7 @@ Esses dados são utilizados para gerar dinamicamente os cards na interface.
 
 ---
 
-## 🧠 Lógica JavaScript (gallery.js)
+## 🧠 Lógica JavaScript `(gallery.js)`
 
 Responsável por:
 
@@ -129,7 +129,7 @@ Responsável por:
 
 ---
 
-## 🎨 Estilização (style.css)
+## 🎨 Estilização `(style.css)`
 
 - Uso de variáveis CSS para tema
 - Layout flexível e responsivo
