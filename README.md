@@ -63,19 +63,20 @@ Este repositório também serve como **material de estudo e portfólio**, demons
 ```text
 photo-gallery/
 │
-├── assets/
-│   └── images/          # Imagens utilizadas na galeria
-│
 ├── src/
+│   ├── data/
+│   │   └── images.js        # Lista de imagens (links externos e metadados)
+│   │
 │   ├── services/
-│   │   └── gallery.js   # Lógica da galeria e busca
+│   │   └── gallery.js       # Lógica da galeria e busca
 │   │
 │   ├── styles/
-│   │   └── style.css    # Estilos globais da aplicação
+│   │   └── style.css        # Estilos globais da aplicação
 │   │
-│   └── index.html       # Estrutura principal da página
+│   └── index.html           # Estrutura principal da página
 │
 └── README.md
+
 ```
 
 ---
